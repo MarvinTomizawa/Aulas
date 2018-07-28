@@ -1,1 +1,41 @@
 Material da aula de Lua 2d
+
+Caracteristicas:
+	-Linguagem de script (Utilizado para manipular programas escritos em outras linguagens).
+	-Interpretação dinamica.
+	-Tipagem dinamica (Reconhecimento em execução).
+	-Gerenciamento automatico de memoria (Garbage colector).
+	-Linguagem livre e portatil.
+	-Linguagem imbutivel (Pode ser executado em todo lugar que pode executar código em C).
+	-Simples e pequena.
+
+Site da linguagem (Downloads e documentação): https://www.lua.org
+  
+ Comando montar o interpretador: make macosx test 	
+
+Tipos basicos:
+	nil : Tipo nulo.
+	
+	boolean : true|false.
+	
+	number: numero inteiro ou fracionario (Não tem diferença).
+	
+	string: cadeia de caracteres que possui varias funcoes imbutidas  Ex:reverse
+	
+	function: Em lua é um tipo e termina com um end
+		Ex: function imprimeOi()
+				print("Ola")
+			end
+
+	table:Estrutura de dados tb é um tipo e ´flexivel podendo chegar em outros tipos de estrutura de dados caso for preciso.
+		Ex: nomes={"marvin","massaru","tomizawa"}
+		nomes[2]="massaru" (Começa no indice 1 não no indice 0 :c )
+
+	threaad: Concorrencia
+
+	userData:?
+
+Alguns comandos: 
+	- #: Devolve a quantidade.
+		Ex: variavel = "marvin" (string)				|variavel={"marvin","massaru","tomizawa"} (table)
+			#variavel = 6 (Quantidade de letras) 		|#variavel = 3 (Quantidade de objetos dentro da table)
