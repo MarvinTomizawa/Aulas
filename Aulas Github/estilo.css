@@ -1,0 +1,11 @@
+h1{
+	border: dashed black 5px;
+	background-color: blue;
+	color: white;
+	margin: 0px;
+	padding: 20px;
+	
+}
+p{
+	text-align: center;
+}
