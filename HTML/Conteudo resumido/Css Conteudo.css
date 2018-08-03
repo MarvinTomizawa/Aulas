@@ -53,6 +53,14 @@ text-transform: (Tipo de texto)
 */
 
 background-image: (URL);
+
+#icones-Sociais 
+/* Define um id, por boas praticas utilizar apenas um id na pagina, Caso precise do mesmo 
+Comportamento em outros elementos utilizar uma classe */
+
+.icones-Sociais
+/* Define uma classe */
+
 }
 
 
@@ -60,9 +68,3 @@ background-image: (URL);
 /*
 //Reset: CSS utilizado para resetar as configurações do browser, que podem alterar de acordo com o browser, Só procurar pra 
 //baixar
-//
-//
-//
-//
-//
-*/
