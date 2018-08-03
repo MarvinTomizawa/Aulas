@@ -1,0 +1,68 @@
+h1
+{
+font-size: (tamanho)// Informa qual o tamanho da fonte
+
+text-align: (localParaAlinhar)//Alinha o texto em determinada parte da pagina
+/*	EX:	justify //Ajusta o espacamento entre eles
+*		center  //Ajusta ao centro
+*		left    //Ajusta a esquerda
+*		right   //Ajusta a direita
+*/
+
+background-color:(corEmCodigo) //Define a cor de fundo da tag atribuida
+
+font-family:(nomeFonte) //Define a fonte da tag
+
+padding: (tamanho)// Responsavel por controlar o espaçamento da pagina
+
+border: (tamanho estilo cor)//Responsavel pela borda do elemento
+/*	Ex:	solid  Borda solida;
+*		dotted borda pontilhada;
+*		dashed borda pontilhada;
+*		groove borda daora;
+*		inset
+*		outset
+*		ridge
+*/
+
+margin:(tamanho)//Espaçamento que fica na parte exterior ao componente
+
+width: (tamanho); //Define o comprimento do componente
+
+height: (tamanho);//Define a altura do componente
+
+line-height: (tamanho)//Controla o espaçamento entre as linhas de acordo com o tamanho da fonte
+
+box-sizing: (EstiloDeBorda)//Defini como o componente de marcação irá se comportar
+/*	Ex: border-box : medir largura utilizando um box como referencia;
+*		Content-box
+*/
+
+display:(Modo de mostrar o componente);
+/*
+	block :Empilhado
+	inline:Um do lado do outro *Inline nao tem tamanho configuravel
+	inline-block: igual ao inline mas com tamanho configuravel;
+*/
+
+text-indent: (pixeis para deslocar);
+
+text-transform: (Tipo de texto)
+/* UpperCase
+*	LoweCase
+*/
+
+background-image: (URL);
+}
+
+
+
+/*
+//Reset: CSS utilizado para resetar as configurações do browser, que podem alterar de acordo com o browser, Só procurar pra 
+//baixar
+//
+//
+//
+//
+//
+*/
