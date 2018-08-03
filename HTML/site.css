@@ -1,5 +1,4 @@
 main h1 {
-	text-align: center;
 	background-color: #107dac;
 	color: #FFF;
 	padding:  10px;
@@ -13,16 +12,12 @@ main h1 {
 h2{
 	font-family: "Open Sans Condensed", "Arial", sans-serif;
 	font-size: 40px;
-	text-align: center;
+	clear:right;
 }
 
 h3{
 	font-size: 30px;
-	text-align: center;
-}
-
-div{
-	text-align: center;
+	clear:both;
 }
 
 body {
@@ -33,7 +28,7 @@ body {
 }
 
 p {
-	text-align: center;
+	text-align: justify;
 	font-size: 15px;
 }
 
@@ -48,13 +43,10 @@ blockquote {
 	background-color: #005073;
 	color:#F2FFFC;
 	padding: 20px;
-	margin-bottom: 5px;
+	margin: 0px;
 	border:5px solid black; 
 }
 
-blockquote p {
-	font-size: inherit;
-}
 aside {
 	background-color: #0000CD;
 	line-height: 1;
@@ -64,13 +56,18 @@ aside {
 	text-align: center;
 }
 
-aside a{
-	color:inherit;
+aside, img{
+	float: right;
+	text-align: justify; 
+}
+aside a {
+	color: inherit;
 }
 
 footer {
 	background-color: #000;
 	color: #F2FFFC;
+	clear: both;
 }
 
 body{
@@ -100,6 +97,11 @@ ul{
 .icone-rodape li{
 	display: inline-block;
 }
+.container{
+	margin-left: 300px;
+	margin-right: 300px;
+
+}
 
 .github{
 	background-image: url("github.png");
@@ -109,4 +111,12 @@ ul{
 }
 .twitter{
 	background-image: url("twitter.png");
+}
+.texto-direita{
+	float: right;
+	width:150px;
+}
+.texto-esquerda{
+	float: left;
+	width:150px;
 }
