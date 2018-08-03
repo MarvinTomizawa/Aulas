@@ -7,6 +7,7 @@ main h1 {
 	border-right: 5px dashed black;
 	border-bottom: 5px black solid;
 	margin-top: auto;
+	text-transform: uppercase;
 }
 
 h2{
@@ -70,7 +71,6 @@ aside a{
 footer {
 	background-color: #000;
 	color: #F2FFFC;
-	margin: 0px;
 }
 
 body{
@@ -93,6 +93,7 @@ ul{
 .icone-rodape a{
 	width:40px;
 	height: 40px;
+	margin: 0px;
 	display: inline-block;
 	text-indent: -9999px;
 }
