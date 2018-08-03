@@ -61,6 +61,17 @@ Comportamento em outros elementos utilizar uma classe */
 .icones-Sociais
 /* Define uma classe */
 
+
+float: (Lado para flutuar);
+/*
+	Retira uma tag do fluxo da pagina fazendo-a flutuar em um dos dois cantos da tela
+	left ou right
+*/
+
+clear :(Lado para limpar);
+/*
+	Limpa floats em sua tag escolhendo o lado para limpar
+*/
 }
 
 
