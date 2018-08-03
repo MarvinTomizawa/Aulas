@@ -1,0 +1,111 @@
+main h1 {
+	text-align: center;
+	background-color: #107dac;
+	color: #FFF;
+	padding:  10px;
+	border-left: 5px dashed black;
+	border-right: 5px dashed black;
+	border-bottom: 5px black solid;
+	margin-top: auto;
+}
+
+h2{
+	font-family: "Open Sans Condensed", "Arial", sans-serif;
+	font-size: 40px;
+	text-align: center;
+}
+
+h3{
+	font-size: 30px;
+	text-align: center;
+}
+
+div{
+	text-align: center;
+}
+
+body {
+	font-family: "Crimson Text", "Times New Roman", serif;
+	background-color: #F2FFFC;
+	margin: 0px;
+	font-size: 120%;
+}
+
+p {
+	text-align: center;
+	font-size: 15px;
+}
+
+main blockquote{
+	color: white;
+	background-color: #4169e1; 
+	font-size: 25px;
+	width:300px;
+}
+
+blockquote {
+	background-color: #005073;
+	color:#F2FFFC;
+	padding: 20px;
+	margin-bottom: 5px;
+	border:5px solid black; 
+}
+
+blockquote p {
+	font-size: inherit;
+}
+aside {
+	background-color: #0000CD;
+	line-height: 1;
+	padding:5px;
+	margin: 0px;
+	color:#FFFFFF;
+	text-align: center;
+}
+
+aside a{
+	color:inherit;
+}
+
+footer {
+	background-color: #000;
+	color: #F2FFFC;
+	margin: 0px;
+}
+
+body{
+	margin: 0px;
+}
+
+main a {
+	color: #851944;
+}
+ul{
+	list-style-type: none;
+}
+
+.iconeRedesSociais li{
+	/*Pegga e altera tag com a classe*/
+	display: inline-block;
+	margin:0px;
+}
+
+.icone-rodape a{
+	width:40px;
+	height: 40px;
+	display: inline-block;
+	text-indent: -9999px;
+}
+.icone-rodape li{
+	display: inline-block;
+}
+
+.github{
+	background-image: url("github.png");
+}
+.linkedin{
+	background-image: url("linkedin.png");
+}
+.twitter{
+	background-image: url("twitter.png");
+}
