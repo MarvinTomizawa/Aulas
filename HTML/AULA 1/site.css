@@ -49,6 +49,8 @@ aside {
 	text-align: center;
 	clear:right;
 	box-sizing: border-box;
+	position: relative;
+	top: 235px;
 }
 aside h1{
 	font-size: 20px;
@@ -71,8 +73,10 @@ footer {
 	background-color: #000;
 	color: #F2FFFC;
 	clear: both;
+	position: fixed;
+	bottom: 0;
+	width:100%;
 }
-
 body{
 	margin: 0px;
 }
@@ -101,18 +105,22 @@ ul{
 	display: inline-block;
 }
 .container{
-	margin-left: 300px;
-	margin-right: 300px;
+	padding: 40px 0;
+	padding-top: 0px;
+	width: 840px;
+	margin: 0 auto;
+	padding-bottom: 80px;
+	box-sizing: content-box;
 }
 
 .github{
-	background-image: url("github.png");
+	background-image: url("Imagens/github.png");
 }
 .linkedin{
-	background-image: url("linkedin.png");
+	background-image: url("Imagens/linkedin.png");
 }
 .twitter{
-	background-image: url("twitter.png");
+	background-image: url("Imagens/twitter.png");
 }
 .texto-direita{
 	float: right;
@@ -124,8 +132,23 @@ ul{
 	margin-right: 10px;
 	width:150px;
 }
+
+.noticia li{
+	background-color: #FAFFFC;
+	border: solid black 8px;
+	display: inline-block;
+	width:45%;
+	box-sizing: border-box;
+    margin-right: 16px;
+    margin-bottom: 16px;
+}
 .imagemTopo{
-	width: 15%;
+	position: absolute;
+	top: 0px;
+	right: 0px;
 	box-sizing: border-box;
 	border:solid black 5px;
+}
+.noticia img{
+	width: 100%;	
 }

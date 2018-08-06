@@ -72,6 +72,22 @@ clear :(Lado para limpar);
 /*
 	Limpa floats em sua tag escolhendo o lado para limpar
 */
+
+position: (Local para deslocar);
+/*
+	Desloca um elemento na pagina
+	Relative = Relativo (Prende a imagem a sua posução relativa)
+	Absolute = Sai do fluxo da tela e vira relativo a janela do navegador
+	Fixed    = Deixa fixo mesmo dando scroll na tela
+*/
+
+top: (Quantidade de pixeis);
+right: (Quantidade de pixeis);
+left:(Quantidade de pixeis);
+bottom: (Quantidade de pixeis);
+/*	Aumenta 10 pixeis na parte de cima, deslocando para o ladooposto
+	bastante utilizada com position
+*/
 }
 
 
