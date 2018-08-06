@@ -1,9 +1,8 @@
 main h1 {
 	background-color: #107dac;
 	color: #FFF;
+	text-align: center;
 	padding:  10px;
-	border-left: 5px dashed black;
-	border-right: 5px dashed black;
 	border-bottom: 5px black solid;
 	margin-top: auto;
 	text-transform: uppercase;
@@ -32,28 +31,32 @@ p {
 	font-size: 15px;
 }
 
-main blockquote{
-	color: white;
-	background-color: #4169e1; 
-	font-size: 25px;
-	width:300px;
-}
-
 blockquote {
 	background-color: #005073;
 	color:#F2FFFC;
 	padding: 20px;
 	margin: 0px;
-	border:5px solid black; 
+	border: 5px solid black; 
+	clear:both;
 }
 
 aside {
 	background-color: #0000CD;
 	line-height: 1;
-	padding:5px;
-	margin: 0px;
+	padding: 5px;
+	width:15% ;
 	color:#FFFFFF;
 	text-align: center;
+	clear:right;
+	box-sizing: border-box;
+}
+aside h1{
+	font-size: 20px;
+}
+
+main{
+	float: left;
+	width: 85%;
 }
 
 aside, img{
@@ -100,7 +103,6 @@ ul{
 .container{
 	margin-left: 300px;
 	margin-right: 300px;
-
 }
 
 .github{
@@ -114,9 +116,16 @@ ul{
 }
 .texto-direita{
 	float: right;
+	margin-left: 10px;
 	width:150px;
 }
 .texto-esquerda{
 	float: left;
+	margin-right: 10px;
 	width:150px;
+}
+.imagemTopo{
+	width: 15%;
+	box-sizing: border-box;
+	border:solid black 5px;
 }
