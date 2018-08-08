@@ -1,6 +1,14 @@
 h1
 {
 font-size: (tamanho)// Informa qual o tamanho da fonte
+/*
+	px indicara o tamanho em pixels
+
+	Medidas relativas:
+		rem indicara o tamanho em relação com o tamanho da fonte do navegador, baseia-se na altura da fonte
+		em indicara o tamanho em relação com o tamanho da fonte do elemento,  baseia-se na altura da fonte
+		ch indicara o tamanho em relação com o tamanho da fonte, baseia-se na largura da fonte do caracter 0
+*/
 
 text-align: (localParaAlinhar)//Alinha o texto em determinada parte da pagina
 /*	EX:	justify //Ajusta o espacamento entre eles
@@ -75,10 +83,11 @@ clear :(Lado para limpar);
 
 position: (Local para deslocar);
 /*
-	Desloca um elemento na pagina
-	Relative = Relativo (Prende a imagem a sua posução relativa)
+	Desloca um elemento na pagina, Qualquer valor colocado em um position serve de referencia para os demais(Não vale para o static)
+	Relative = Relativo (Prende a imagem a sua posução relativa) 
 	Absolute = Sai do fluxo da tela e vira relativo a janela do navegador
 	Fixed    = Deixa fixo mesmo dando scroll na tela
+	Static
 */
 
 top: (Quantidade de pixeis);
@@ -88,10 +97,18 @@ bottom: (Quantidade de pixeis);
 /*	Aumenta 10 pixeis na parte de cima, deslocando para o ladooposto
 	bastante utilizada com position
 */
+
+border-radius: (Valor do raio de arredondamento da borda); !BETA
+
+
 }
+Prefixos de funcionalidades que ainda estão sendo desenvolvidas:
+-webkit- 	:Funcionalidade nova do chrome,opera e safari, usado apenas por ele 
+-moz-    	:Funcionalidade nova do mozila, usado apenas por ele 
+-ms-		:Funcionalidade nova do internet explorer, usado apenas por ele 
 
 
 
 /*
 //Reset: CSS utilizado para resetar as configurações do browser, que podem alterar de acordo com o browser, Só procurar pra 
-//baixar
+//baixarr

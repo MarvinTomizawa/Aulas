@@ -1,21 +1,21 @@
-main h1 {
+.titulo-principal{
 	background-color: #107dac;
 	color: #FFF;
 	text-align: center;
-	padding:  10px;
-	border-bottom: 5px black solid;
+	padding:  2.5rem;
+	border-bottom: .25rem black solid;
 	margin-top: auto;
 	text-transform: uppercase;
 }
 
 h2{
 	font-family: "Open Sans Condensed", "Arial", sans-serif;
-	font-size: 40px;
+	font-size: 2rem;
 	clear:right;
 }
 
 h3{
-	font-size: 30px;
+	font-size: 1.5rem;
 	clear:both;
 }
 
@@ -23,37 +23,37 @@ body {
 	font-family: "Crimson Text", "Times New Roman", serif;
 	background-color: #F2FFFC;
 	margin: 0px;
-	font-size: 120%;
+	font-size: 1.2rem;
 }
 
 p {
 	text-align: justify;
-	font-size: 15px;
+	font-size: .75rem;
 }
 
 blockquote {
 	background-color: #005073;
 	color:#F2FFFC;
-	padding: 20px;
+	padding: 1rem;
 	margin: 0px;
-	border: 5px solid black; 
+	border: .2rem solid black; 
 	clear:both;
 }
 
 aside {
 	background-color: #0000CD;
 	line-height: 1;
-	padding: 5px;
-	width:15% ;
+	padding: .2rem;
+	width: 15% ;
 	color:#FFFFFF;
 	text-align: center;
 	clear:right;
 	box-sizing: border-box;
 	position: relative;
-	top: 235px;
+	top: 233px;
 }
 aside h1{
-	font-size: 20px;
+	font-size: 1rem;
 }
 
 main{
@@ -95,7 +95,7 @@ ul{
 }
 
 .icone-rodape a{
-	width:40px;
+	width: 40px;
 	height: 40px;
 	margin: 0px;
 	display: inline-block;
@@ -105,11 +105,11 @@ ul{
 	display: inline-block;
 }
 .container{
-	padding: 40px 0;
+	padding: 2rem 0;
 	padding-top: 0px;
-	width: 840px;
+	width: 42rem;
 	margin: 0 auto;
-	padding-bottom: 80px;
+	padding-bottom: 4rem;
 	box-sizing: content-box;
 }
 
@@ -124,30 +124,30 @@ ul{
 }
 .texto-direita{
 	float: right;
-	margin-left: 10px;
-	width:150px;
+	margin-left: .5rem;
+	width: 7.5rem;
 }
 .texto-esquerda{
 	float: left;
-	margin-right: 10px;
-	width:150px;
+	margin-right: .5rem;
+	width: 7.5rem;
 }
 
 .noticia li{
 	background-color: #FAFFFC;
-	border: solid black 8px;
+	border: solid black .4rem;
 	display: inline-block;
-	width:45%;
+	width: 45%;
 	box-sizing: border-box;
-    margin-right: 16px;
-    margin-bottom: 16px;
+    margin-right: .8rem;
+    margin-bottom: .8rem;
 }
 .imagemTopo{
 	position: absolute;
 	top: 0px;
 	right: 0px;
 	box-sizing: border-box;
-	border:solid black 5px;
+	border:solid black .25rem;
 }
 .noticia img{
 	width: 100%;	
