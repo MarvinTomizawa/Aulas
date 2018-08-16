@@ -1,7 +1,37 @@
 .titulo-principal{
     padding: 10rem;
+    text-shadow: .1em .1em black;
 }
+.banner{
+    width: 14em;
+    line-height: 1;
+    padding: 1em 0;
+    box-sizing: border-box;
 
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform-origin: 0 0;
+    transform: translate(-2.55em, 7.45em) rotate(-45deg);
+
+    text-align: center;
+    text-decoration: none;
+    background-color: #B22222;
+    color: white;
+    border: .25em solid black;
+
+    font-size: 1.2em;
+    font-family: "Open Sans Condensed", sans-serif;
+    box-shadow: 0 0 10px white;
+}
+.palavrasHome{
+    perspective: 6px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width:100%;
+    height: 100%
+}
 .foto-home {
     height: 100px;
     float:left;
@@ -16,10 +46,16 @@
     line-height: 1;
     padding: 8rem;
     font-size: 2rem;
+    display:inline-block;
+
+}
+.saudacao span{
+    transform: translate(30rem) skew(-10deg);
 }
 .subtitulo-principal{
     text-align: center;
     font-size: .8rem;
+    text-shadow: .2em .2em black;
 }
 .saudacao-inicio {
     color: #889;
@@ -49,6 +85,7 @@
 }
 .secao-inicio h2 {
     text-transform: uppercase;
+    text-shadow: .1em .1em black;
     padding: 2rem;
 }
 .trabalhos {
@@ -81,18 +118,20 @@
     padding: 1rem;
 }
 footer {
-    background-color: #000;
+    background-color: rgba(0,0,0,.6);
     color: #FFF;
     padding: 2rem;
+
 }
 footer a {
     color: #F99;
 }
 main {
     width: 100%;
-    padding-bottom: 4em;
+    padding-bottom: 5.5em;
     float: none;
 }
 header{
     position: relative;
+    background-image: linear-gradient(to bottom,rgb(16, 125, 172),#000);
 }

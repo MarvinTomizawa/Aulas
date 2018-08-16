@@ -100,7 +100,32 @@ bottom: (Quantidade de pixeis);
 
 border-radius: (Valor do raio de arredondamento da borda); !BETA
 
+transform :(Altera o comportamento de um objeto);
+/*
+	rotate(Valor em graus)    	gira um objeto
+	scale(Valor em pixeis)   	Aumenta o tamanho do objeto
+	translate(Valor em pixeis)	Movimenta um objeto
+	skey(Valor em pixeis)		Puxa um objeto para os lados
+*/
 
+box-shadow: (Deslocamento x px) (deslocamento y px) (Quantidade expadida para os lados px) (Estilo do shadow) (Cor);
+
+text-shadow: (Deslocamento y px)(Deslocamento X px) (Quantidade expadida para os lados px) (Estilo do shadow) (Cor);
+/*
+	Estilo do shadow:
+*/
+
+opacity: (Quantidade de 1 a 0)
+
+background-size: (Tamanho x e y);
+/*
+Define o tamanho do background image
+*/
+
+background-repeat: no-repeat;
+/*
+Define como vai ser tratada a repetição do elemento
+*/
 }
 Prefixos de funcionalidades que ainda estão sendo desenvolvidas:
 -webkit- 	:Funcionalidade nova do chrome,opera e safari, usado apenas por ele 
